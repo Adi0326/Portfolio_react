@@ -3,6 +3,7 @@ import { Typography, Button, Box, Container } from '@mui/material';
 import { motion } from 'framer-motion';
 import styled from 'styled-components';
 import { ArrowDownward } from '@mui/icons-material';
+import profileImage from '../profile.jpeg';
 
 const HeroContainer = styled(Box)`
   min-height: 100vh;
@@ -248,7 +249,7 @@ const Home = () => {
             >
               <Box
                 component="img"
-                src="/profile_pic/WhatsApp Image 2025-05-24 at 15.28.36.jpeg"
+                src={profileImage}
                 alt="B R Adithya"
                 sx={{
                   width: '100%',

@@ -2,7 +2,7 @@
   "name": "adi_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://adi0326.github.io/Portfolio_usingREACT",
+  "homepage": "https://Adi0326.github.io/Portfolio_react",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
@@ -26,7 +26,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "dev": "some-dev-command"
   },
   "eslintConfig": {
     "extends": [

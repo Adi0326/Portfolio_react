@@ -89,6 +89,7 @@ const Skills = () => {
     { name: "Java", level: 70 },
     { name: "HTML/CSS", level: 95 },
     { name: "SQL", level: 75 },
+    { name: "DevOps", level: 85 },
   ];
 
   const technologies = [
@@ -99,11 +100,12 @@ const Skills = () => {
     { name: "HTML5", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
     { name: "CSS3", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
     { name: "Node.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
-    { name: "MongoDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
     { name: "MySQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
     { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
-    { name: "AWS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" },
-    { name: "Docker", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" }
+    { name: "Jenkins", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" },
+    { name: "Azure", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" },
+    { name: "Maven", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" },
+    { name: "Gradle", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-original.svg" },
   ];
 
   const skillCategories = [
@@ -117,11 +119,11 @@ const Skills = () => {
     },
     {
       title: "Database & Cloud",
-      skills: ["MySQL", "Supabase", "Firebase", "Azure", ]
+      skills: ["MySQL", "Supabase", "Firebase", "Azure"]
     },
     {
-      title: "Tools & Methods",
-      skills: ["Git", "GitHub", "Agile", "Testing"]
+      title: "DevOps & Build Tools",
+      skills: ["Jenkins", "Azure Pipelines", "Maven", "Gradle", "CI/CD", "Docker"]
     }
   ];
 
