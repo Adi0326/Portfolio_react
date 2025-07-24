@@ -166,7 +166,7 @@ const Projects = () => {
       id: 1,
       title: "College Management System",
       role: "Full Stack Developer",
-      date: "2023",
+      date: "2024",
       description: "A comprehensive system for managing college resources, student information, and academic processes. Implemented role-based access control for administrators, faculty, and students.",
       icon: <Web />,
       position: "right",
@@ -177,8 +177,8 @@ const Projects = () => {
     {
       id: 2,
       title: "Public Schemes Service Navigator",
-      role: "Frontend Developer",
-      date: "2022",
+      role: "Full Stack Developer",
+      date: "2025",
       description: "A web application that helps citizens find and access government welfare schemes and services. Users can search for schemes based on categories, eligibility, or keywords.",
       icon: <CloudQueue />,
       position: "left",
@@ -190,7 +190,7 @@ const Projects = () => {
       id: 3,
       title: "AI-powered Content Generator",
       role: "Backend Developer",
-      date: "2022",
+      date: "2024",
       description: "An intelligent system for generating creative content using transformer-based language models. Allows users to input a prompt and receive AI-generated output.",
       icon: <Code />,
       position: "right",
@@ -202,42 +202,57 @@ const Projects = () => {
       id: 4,
       title: "Portfolio Website",
       role: "UI/UX Designer & Developer",
-      date: "2021",
+      date: "2025",
       description: "My personal portfolio website showcasing my skills, projects, and professional experience. Built with React and enhanced with animations using Framer Motion.",
       icon: <Devices />,
       position: "left",
       technologies: ["React", "Material UI", "Framer Motion", "Styled Components"],
       github: "https://github.com/adi0326/portfolio",
       live: "https://adithya-br.netlify.app"
-    }
-  ];
-
-  // Featured projects (similar to Achievements section)
-  const featuredProjects = [
+    },
     {
+      id:5,
       title: "E-Commerce Platform",
+            date: "2024",
       description: "A full-featured e-commerce platform with product catalog, shopping cart, and payment integration.",
       icon: <Storage />,
       technologies: ["React", "Redux", "Node.js", "MongoDB", "Stripe API"]
     },
     {
+      id:6,
       title: "Weather Dashboard",
+      date: "2024",
       description: "Real-time weather dashboard with location-based forecasts and interactive maps.",
       icon: <CloudQueue />,
+      position: "left",
       technologies: ["JavaScript", "OpenWeather API", "Chart.js", "Leaflet"]
     },
+   
+  ];
+
+  // Featured projects (similar to Achievements section)
+  const featuredProjects = [
     {
+      id:1,
+      title: "Tic-Tac-Toe Game",
+      date: "2024",
+      description: "Interactive game with multiple difficulty levels and game statistics tracking.",
+      icon: <Devices />,
+      position: "left",
+      technologies: ["JavaScript", "HTML5", "CSS3", "LocalStorage API"]
+    },
+     {
+      id: 2,
       title: "Task Management App",
+      date: "2024",
       description: "Collaborative task management application with real-time updates and team features.",
       icon: <Code />,
       technologies: ["React", "Firebase", "Material UI", "PWA"]
     },
-    {
-      title: "Tic-Tac-Toe Game",
-      description: "Interactive game with multiple difficulty levels and game statistics tracking.",
-      icon: <Devices />,
-      technologies: ["JavaScript", "HTML5", "CSS3", "LocalStorage API"]
-    }
+    
+    
+    
+    
   ];
 
   return (

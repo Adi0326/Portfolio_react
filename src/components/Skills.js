@@ -86,7 +86,7 @@ const Skills = () => {
     { name: "React.js", level: 90 },
     { name: "Node.js", level: 75 },
     { name: "Python", level: 80 },
-    { name: "Java", level: 70 },
+    { name: "Java", level: 90 },
     { name: "HTML/CSS", level: 95 },
     { name: "SQL", level: 75 },
     { name: "DevOps", level: 85 },
